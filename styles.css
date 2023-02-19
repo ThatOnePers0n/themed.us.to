@@ -2,20 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 div.polaroid {
   margin:5%;
-  width: 708px;
+  width: 20%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
-  border-radius: 50px;
   font-family: 'Poppins', sans-serif;
   display: inline-block;
+  border-radius: 50px;
 }
 
 div.container {
   padding: 10px;
+  color: #FFFFFF;
 }
 
 div.polaroid:hover{
-    transform:scale(1.3);
+    transform:scale(1.7);
 }
 
 a:link, a:visited {
@@ -30,8 +31,14 @@ a:link, a:visited {
 
   img {
     border-radius: 50px;
+    width: 20%;
+    height: 20%;
   }
 
   body {
     font-family: 'Poppins', sans-serif;
+  }
+
+  h1 {
+    font-size: 72px;
   }
